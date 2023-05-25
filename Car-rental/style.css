@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');* {
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+}
+header {
+  position: relative;
+  z-index: 99999;
+}
+nav {
+  left: 10px;
+  padding: 30px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  left: 40px;
+  font-family: "Rubik", sans-serif;
+  z-index: 99999;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#nav-bar-sign-in {
+  position: relative;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#signin-link {
+  text-decoration: none;
+}
+#register-button {
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 0px 0.000001px 13px 0.1px orangered;
+}
+
+#hero-section {
+  align-items: center;
+  display: flex;
+  height: 1200px;
+  position: relative;
+  width: 100%;
+}
+#Hero-Section-background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#Hero-Section-Car {
+  position: relative;
+  left: 540px;
+  z-index: 2;
+}
+
+.Hero-section-text {
+  width: 600px;
+  position: absolute;
+  font-family: Rubik, sans-serif;
+  bottom: 130px;
+  margin-left: 30px;
+}
+
+.Hero-Section-text1 {
+  color: #010103;
+  font-family: Rubik, sans-serif;
+  font-size: 1.4rem;
+}
+
+.Hero-Section-text2 {
+  color: #010103;
+  font-family: Poppins, sans-serif;
+  font-size: 3.4rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2.3rem;
+  margin-top: 1rem;
+}
+
+.Hero-Section-text3 {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.Hero-section-text-red {
+  color: orangered;
+}
+
+#Hero-section-text-register-btn {
+  padding: 5px;
+  border: none;
+  color: white;
+  font-weight: 700px;
+  background-color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 0px 0.000001px 13px 0.1px orangered;
+}
+
+#Hero-section-text-leanmore-btn {
+  padding: 5px;
+  border: none;
+  color: white;
+  font-weight: 700px;
+  background-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 0px 0.000001px 13px 0.1px black;
+}
+
+#Book-A-Car {
+    font-family: "Rubik", sans-serif;
+    padding: 4rem 4.5rem 5rem 5.5rem;
+      position: relative;
+      font-size: 20px;
+
+  background-color: white;
+  width: 1100px;
+  height: 400px;
+  margin: auto;
+  z-index: 4;
+  top: 100px;
+  background-size: cover;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#Plan-your-trip{ 
+  font-family: 'Poppins', sans-serif;    
+  position: relative;
+    top: 200px;
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    padding: 4rem 4.5rem 5rem 5.5rem;
+
+}
+
+#Plan-your-trip h3
+{ position: relative;
+  width: 200px;
+  margin: auto;
+  font-size: 21px;
+
+}
+
+#Plan-your-trip h1
+{ position: relative;
+  width: 800px;
+  margin: auto;
+  left: 100px;
+  font-size: 55px;
+}
+
+.Book-content-icons
+{
+position: absolute;
+left: 200px;
+width: 1200px;
+margin: auto;
+top: 1450px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: "Rubik", sans-serif;
+
+}
+
+.Book-content-icons ul{
+    font-size: 20px;
+    margin: auto;
+    width: 60px;
+
+    width: 190px;
+    padding-left: 5px;
+}
+
+.Book-content-icons ul span{
+    width: 60px;
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    margin-top: 30px;
+}
+
+.Vehicle-Models
+{   position: relative;
+    top: 250px;
+    height: 750px;
+    background-color: coral;
+    width: 100%;
+}
+
+.Banner
+{
+  background-color: #2d2d2d;
+  position: relative;
+  top: 250px;
+  padding: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 40px;
+    height: 240px;
+    text-align: center;
+    width: 100%;
+}
+
+.save-text1
+{    font-family: Rubik,sans-serif;
+color: white;  
+font-weight: 500;
+font-size: 70px;
+position: relative;
+  line-height: 1.3;
+  bottom: 40px;
+}
+
+.save-text2
+{
+  font-family: Rubik,sans-serif;
+  color: white;  
+  font-weight: 50;
+  font-size: 30px;
+  position: relative;
+
+    line-height: 1.3;
+    bottom: 45px;
+}
+#save-text2-color
+{
+  color: orangered;  
+
+}
+
+.car-showcase{
+width: 100%;
+height: 400px;
+position: relative;
+top:300px;
+
+}
+
+#Fleet-of-Cars{
+  position: relative;
+  left: 100px;
+height: 600px;
+}
+
+#why-choose-us
+{
+  height: 500px;
+  width: 800px;
+  position: relative;
+  top: 400px;
+  left: 45px;
+  font-family: Rubik,sans-serif;
+  padding: 10%;
+}
+
+#why-choose-us-txt1
+{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+#why-choose-us-txt2
+{   font-weight: 900;
+
+  font-size: 37px;
+  margin-bottom: 2rem;}
+
+#why-choose-us-txt3
+{  
+  font-size: 17px;
+  color: #706f7b;
+  margin-bottom : 3.3rem;
+}
+
+#Why-choose-us-icons
+{
+  width: 500px;
+     height: 500px;
+     position: relative;
+     left: 650px;
+     bottom: 380px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+}
+
+.Why-choose-us-element-heading
+{
+  font-family: Rubik,sans-serif;
+   bottom: 70px;
+   left: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   position: relative;
+}
+
+.Why-choose-us-element-description
+{
+  position: relative;
+  width: 300px;
+  bottom: 60px;
+  display: flex;
+  left: 120px;
+  color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 17px;
+
+}
+
+
+#People-review
+{
+  background-color: white;
+    height: 800px;
+  width: 100%;
+  position: relative;
+  top: 600px;
+  padding: 10%;
+  width: 100%;
+  text-align: center;
+   padding-bottom: 50px  ;
+   line-height: 20px;
+}
+
+
+#People-review-txt1
+{
+  font-family: Rubik,sans-serif;
+  
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+
+#People-review-txt2
+{
+  font-family: Rubik,sans-serif;
+  
+  font-size: 50px;
+  font-weight: 00;
+  position: relative;
+}
+
+#People-review-txt3
+{
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  width: 600px;
+  right: 450px;
+  position: absolute;
+}
+
+
+
+#people-reviews-box1
+{
+  width: 500px;
+  height:300px;
+  background-color: white;
+  display: flex;
+  position: relative;
+  top: 150px;
+  font-family: 'Poppins', sans-serif;    
+  padding: 3%;
+  line-height: 30px;
+box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+font-size: 1.4rem;
+font-weight: 500;
+
+}
+
+
+
+#people-reviews-box2
+{
+  width: 500px;
+  height:300px;
+  left: 700px;
+  bottom: 750px;
+  background-color: white;
+  display: flex;
+  position: relative;
+bottom: 150px;
+  font-family: 'Poppins', sans-serif;    
+padding: 3%;
+line-height: 30px;
+box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);    
+font-weight: 500;
+font-size: 1.4rem;
+
+}
+
+
+.People-review-dp
+{
+  border-radius: 30px;
+  height: 50px;
+  position: relative;
+  top: 170px;
+  right: 350px;
+}
+
+#download-section
+{
+  height: 558px;
+  z-index: 9999;
+  position: relative;
+  top: 550px;
+  background-color: white;
+}
+
+#download-section h2
+{
+  padding: 10%;
+  position: absolute;
+  z-index: 1;
+  width: 1000px;
+  font-family: 'Poppins', sans-serif;    
+ font-size: 50px;
+  bottom: 150px;
+  line-height: 1.;
+
+}
+
+#download-section h3{
+  color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 1000px;
+    position: absolute;
+    bottom: 40px;
+    padding: 10%;
+
+
+
+}
+
+.dowload-button-end
+{
+position: relative;
+bottom: 150px;
+left: 150px;
+}
+
