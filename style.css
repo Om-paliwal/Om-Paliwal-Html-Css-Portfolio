@@ -350,6 +350,7 @@ display: flex;
 align-items: center;
 left: 150px;
 position: relative;
+width: 30px;
 }
 
 .contact__info-mail{
